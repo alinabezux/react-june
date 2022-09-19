@@ -1,14 +1,9 @@
-import './App.css'
-import Users from "./components/user/Users";
+import Characters from "./components/RickandMorty/Characters";
 
-
-function App() {
-
+export default function App() {
     return (
         <div>
-            <h2>users</h2>
-            <Users/>
-        </div>);
+            <Characters/>
+        </div>
+    );
 }
-
-export default App;
