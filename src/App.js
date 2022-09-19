@@ -1,14 +1,8 @@
-import './App.css'
-import Users from "./components/user/Users";
-
-
-function App() {
-
+import Simpsons from "./components/Simpsons/Simpsons";
+export default function App() {
     return (
         <div>
-            <h2>users</h2>
-            <Users/>
-        </div>);
+           <Simpsons/>
+        </div>
+    );
 }
-
-export default App;

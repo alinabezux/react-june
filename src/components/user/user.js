@@ -1,5 +1,5 @@
 export default function User(props) {
-    let {user} = props;
+    let {item: user} = props;
     return (
         <div>
             <h2>{user.id} {user.name}</h2>
