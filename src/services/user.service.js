@@ -1,10 +1,7 @@
 import {axiosService} from "./axios.service";
+import {info} from "../components/url";
 
-const getUsers = () => {
-    return axiosService.get('/users')
-}, getUser = (id) => {
-    return axiosService.get('/users' + id)
-};
-export {getUsers,getUser};
-
-  
+const UserService={
+    getUsers:()=>axiosService.get(info.users)
+}
+export {UserService};

@@ -1,8 +1,8 @@
 import axios from "axios";
+import {_url} from "../components/url";
 
 let axiosService = axios.create({
-    baseURL: 'https://jsonplaceholder.typicode.com',
-    headers: {'Content-Type': 'aplication/json',}
+    baseURL: _url,
 });
 
 export {axiosService};
