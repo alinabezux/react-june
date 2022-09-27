@@ -13,7 +13,6 @@ const Users = () => {
     const lift = (obj) => {
         setUser(obj);
     }
-
     useEffect(() => {
         UserService.getUsers().then(value => setUsers(value.data))
     }, [])
