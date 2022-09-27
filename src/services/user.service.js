@@ -1,8 +1,8 @@
 import {axiosService} from "./axios.service";
 
-import {info} from "../components/url";
+import {url} from "../components/url";
 
 const UserService={
-    getUsers:()=>axiosService.get(info.users)
+    getUsers:()=>axiosService.get(url.users)
 }
 export {UserService};

@@ -1,9 +1,7 @@
 import axios from "axios";
 
-import {_url} from "../components/url";
+import {baseURL} from "../components/url";
 
-let axiosService = axios.create({
-    baseURL: _url,
-});
+let axiosService = axios.create({baseURL})
 
 export {axiosService};
