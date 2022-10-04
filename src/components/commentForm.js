@@ -4,7 +4,7 @@ import {commentsService} from "../services";
 
 const CommentForm = ({setComments}) => {
 
-    const {register, reset, handleSubmit, formState: {errors}} = useForm(
+    const {register, reset, handleSubmit, formState: {errors,isValid}} = useForm(
         {
             mode: 'all',
             defaultValues: {
@@ -27,7 +27,7 @@ const CommentForm = ({setComments}) => {
             <input type="text" {...register("body",{required:'This is required !'})}/>
             {errors.body && <span>{errors.body.message}</span>}
 
-            <input type="submit"/>
+            <input disabled={!isValid} type="submit"/>
         </form>
     );
 }
