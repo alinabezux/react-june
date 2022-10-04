@@ -1,11 +1,12 @@
 import './App.css'
+import {Comments} from "./components";
 
 
 function App() {
 
     return (
         <div>
-
+            <Comments/>
         </div>);
 }
 
