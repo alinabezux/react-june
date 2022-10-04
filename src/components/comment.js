@@ -1,9 +1,11 @@
 const Comment = ({comment}) => {
+
     return (
         <div>
-            <h3>{comment.name}</h3>
+            <h2>{comment.name}</h2>
             <h4>{comment.email}</h4>
             <p>{comment.body}</p>
+            <hr/>
         </div>
     );
 }

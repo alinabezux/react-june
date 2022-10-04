@@ -24,7 +24,7 @@ const CommentForm = ({setComments}) => {
             <input type="text" {...register("name",{required:"This is required input!"})}/>
             {errors.name && <span>{errors.name.message}</span>}
             <input type="text" {...register("email")}/>
-            <input type="text" {...register("body",{required:'This is required input!'})}/>
+            <input type="text" {...register("body",{required:'This is required !'})}/>
             {errors.body && <span>{errors.body.message}</span>}
 
             <input type="submit"/>

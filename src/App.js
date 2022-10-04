@@ -1,6 +1,4 @@
-import './App.css'
 import {Comments} from "./components";
-
 
 function App() {
 
