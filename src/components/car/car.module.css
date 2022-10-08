@@ -1,0 +1,10 @@
+.car {
+    border: 3px solid royalblue ;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.button{
+    margin:10px ;
+}
