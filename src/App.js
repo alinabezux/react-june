@@ -10,17 +10,16 @@ import {Posts} from "./components/Posts";
 
 function App() {
     return (
-        <div>
-            <Routes>
-                <Route path={'/'} element={<MainPage/>}>
-                    <Route path={'/todos'} element={<Todos/>}/>
-                    <Route path={'/albums'} element={<Albums/>}/>
-                    <Route path={'/comments'} element={<Comments/>}>
-                        <Route path={':postId'} element={<Posts/>}/>
-                    </Route>
+        <Routes>
+            <Route path={'/'} element={<MainPage/>}>
+                <Route path={'/todos'} element={<Todos/>}/>
+                <Route path={'/albums'} element={<Albums/>}/>
+                <Route path={'/comments'} element={<Comments/>}>
+                    <Route path={':postId'} element={<Posts/>}/>
                 </Route>
-            </Routes>
-        </div>
+            </Route>
+        </Routes>
+
     )
 }
 
