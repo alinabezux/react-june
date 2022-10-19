@@ -1,0 +1,16 @@
+.header {
+    height: 50px;
+    background-color: blue;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn button {
+    margin: 5px;
+}
