@@ -1,0 +1,11 @@
+.header {
+    height: 80px;
+    background: olivedrab;
+    font-size:25px ;
+    color: #282c34;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
