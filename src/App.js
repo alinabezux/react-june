@@ -1,15 +1,7 @@
-import {Header, Posts, Users} from "./components";
-import './App.css'
-
-function App() {
+const App = () => {
     return (
         <div>
-            <Header/>
-            <div>
-                <Users/>
-                <hr/>
-                <Posts/>
-            </div>
+            APP
         </div>
     )
 }
