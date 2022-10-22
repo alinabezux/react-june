@@ -2,7 +2,7 @@ import {useDispatch, useSelector} from "react-redux";
 import {useParams} from "react-router";
 import {useEffect} from "react";
 
-import {ChosenUserDetails} from "../ChosenUserDetails/ChosenUserDetails";
+import {ChosenUserDetails} from "./ChosenUserDetails";
 import {CHOOSE_USER} from "../../reducers";
 
 const ChosenUser = () => {

@@ -2,7 +2,7 @@ import {useDispatch, useSelector} from "react-redux";
 import {useEffect} from "react";
 
 import {commentsService} from "../../services";
-import {Comment} from "../Comment/Comment";
+import {Comment} from "./Comment";
 import {LOAD_COMMENTS} from "../../reducers";
 
 const Comments = () => {

@@ -1,9 +1,8 @@
-import {combineReducers, createStore} from "redux";
+import {combineReducers} from "redux";
 
 import {commentsReducer} from "./commentsReducer";
 import {postsReducer} from "./postsReducer";
 import {usersReducer} from "./usersReducer";
-
 
 const reducer = combineReducers({
     commentsReducer,

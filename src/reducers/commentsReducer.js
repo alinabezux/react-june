@@ -5,8 +5,9 @@ const commentsReducer = (state = {comments: []}, {type, payload}) => {
         case LOAD_COMMENTS:
             return {...state, comments: payload}
         default:
-            return state
+            return {...state}
     }
 }
+
 
 export {commentsReducer}

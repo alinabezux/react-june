@@ -5,8 +5,7 @@ const postsReducer = (state = {posts: []}, {type, payload}) => {
         case LOAD_POSTS:
             return {...state, posts: payload}
         default:
-            return state
+            return {...state}
     }
 }
-
 export {postsReducer}

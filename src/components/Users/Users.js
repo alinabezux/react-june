@@ -3,7 +3,7 @@ import {useEffect} from "react";
 
 import {usersService} from "../../services";
 import {LOAD_USERS} from "../../reducers";
-import {User} from "../User/User";
+import {User} from "./User";
 
 
 const Users = () => {
