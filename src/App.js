@@ -1,7 +1,11 @@
+import {CarForm, Cars} from "./components";
+
 const App = () => {
     return (
         <div>
-            APP
+            <CarForm/>
+            <hr/>
+            <Cars/>
         </div>
     )
 }
